@@ -10,9 +10,9 @@ filter_category_2 = 'Program Data'
 # ----------------------------------------------------------------------------
 # MAP SETTINGS
 # ----------------------------------------------------------------------------
-map_center_lat = 59.6836187
-map_center_lon = -179.4223156
-map_zoom = 5.072
+map_center_lat = 64.5836187
+map_center_lon = -170.5823156
+map_zoom = 2.572
 
 # Column in the dataset that maps to the featureidkey of the geojson.
 # This is what maps the data column to the geojson feature

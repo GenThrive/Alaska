@@ -4,7 +4,7 @@ import pandas as pd
 
 # Load the Excel file
 data_filepath = Path(__file__).parent.absolute()
-data_records_filepath = data_filepath / 'data_records.xls'
+data_records_filepath = data_filepath / 'data_records.xlsx'
 
 # Define the names of sheets to be processed
 sheets_to_process = ['Organizations','Programs']

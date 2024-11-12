@@ -22,8 +22,9 @@ import data_processing as dp
 
 ## Load data
 data_filepath = pathlib.Path(__file__).parent.absolute()
-data_dictionary_filepath = os.path.join(data_filepath,'data','data_dictionary.xls')
-data_records_filepath = os.path.join(data_filepath,'data','data_records.xls')
+data_dictionary_filepath = os.path.join(data_filepath,'data','data_dictionary.xlsx')
+# data_records_filepath = os.path.join(data_filepath,'data','data_records.xlsx')
+data_records_filepath = os.path.join(data_filepath,'data','modified_file.xlsx')
 us_states_geojson = os.path.join(data_filepath,'data','us_state_geojson.txt')
 tx_esc_geojson = os.path.join(data_filepath,'data','tx_esc.geojson')
 
