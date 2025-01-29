@@ -321,6 +321,7 @@ def build_map(data):
     # try:
         # build map
         # Get Count of entities per esc
+        #this is a test for Daniel. Say hi!
         orgs_map = pd.DataFrame(data['Organizations']['data'])
         esc_count_df = pd.DataFrame(orgs_map['Education_Service_Center'].value_counts())
         esc_count_df = esc_count_df.reset_index().rename(columns={"index": "ESC", "Education_Service_Center": "Organizations"})
